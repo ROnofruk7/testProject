@@ -1,0 +1,37 @@
+.Edit {
+  margin: 40px 20% 0;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  background-color: #442e40;
+  border-radius: 4px;
+
+  input:not([type='submit']) {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 8px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 2px;;
+  }
+
+  div:not(:last-child) {
+    position: relative;
+    margin-bottom: 16px;
+    height: 40px;
+
+    p {
+      position: absolute;
+      margin: 0;
+      bottom: -12px;
+      color: red;
+    }
+  }
+
+  div:last-child {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

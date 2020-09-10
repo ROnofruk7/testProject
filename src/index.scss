@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button, input[type='submit'] {
+  outline: none;
+  border: none;
+  width: 200px;
+  font-weight: bold;
+  height: 32px;
+  border-radius: 2px;
+  background-color: #01959f;
+  cursor: pointer;
+}

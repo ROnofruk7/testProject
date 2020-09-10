@@ -1,0 +1,13 @@
+.Home {
+  margin: 40px 20% 0;
+
+  & > button {
+    margin: 16px;
+  }
+
+  .people-wrapper {
+    & > div:not(:first-child) {
+      margin-top: 16px;
+    }
+  }
+}

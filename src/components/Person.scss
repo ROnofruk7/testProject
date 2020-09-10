@@ -1,0 +1,20 @@
+.Person {
+  color: white;
+  border-radius: 8px;
+  width: 432px;
+  max-width: calc(100% - 32px);
+  display: flex;
+  flex-direction: column;
+  background-color: #e96058;
+  padding: 16px;
+
+  div:not(:first-child) {
+    margin-top: 8px;
+  }
+
+  div:last-child {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
